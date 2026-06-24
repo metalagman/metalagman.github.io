@@ -11,33 +11,6 @@
 
 Backend-focused tech lead with 16+ years in web development, including 7+ years in fintech, marketing, and retail. Designs and delivers distributed systems in Go and PHP, introduces engineering best practices, and leads teams through architecture, delivery, and reliability improvements.
 
-## Open Source Experience
-
-### Agent systems and workflows
-
-- [normahq/norma](https://github.com/normahq/norma): PDCA-inspired workflow orchestrator for agent-driven work.
-- [normahq/relay](https://github.com/normahq/relay): Telegram-first control plane for long-running CLI agents.
-- [normahq/balda](https://github.com/normahq/balda): Persistent AI worker for teams, chat intake, and autonomous task execution.
-- [normahq/codex-acp-bridge](https://github.com/normahq/codex-acp-bridge): bridge exposing Codex App Server to ACP.
-- [diffpal/diffpal](https://github.com/diffpal/diffpal): open-source, provider-agnostic AI review for pull requests.
-- [fastronome/azure-devops-ai-code-review](https://github.com/fastronome/azure-devops-ai-code-review) and [fastronome/azure-devops-copilot-code-review](https://github.com/fastronome/azure-devops-copilot-code-review): AI-powered pull request review extensions for Azure DevOps.
-- [metalagman/agent-skills](https://github.com/metalagman/agent-skills), [metalagman/aida](https://github.com/metalagman/aida), and [metalagman/ainvoke](https://github.com/metalagman/ainvoke): reusable agent workflows, shell-command generation, and schema-driven agent/LLM CLI runners.
-- [mcp-dump](https://www.npmjs.com/package/@normahq/mcp-dump), [acp-dump](https://www.npmjs.com/package/@normahq/acp-dump), and [acp-repl](https://www.npmjs.com/package/@normahq/acp-repl): inspection and interactive tooling for MCP and ACP runtimes.
-
-### Infrastructure and operations
-
-- [metalagman/ecr-auth-operator](https://github.com/metalagman/ecr-auth-operator): Kubernetes operator that automates Amazon ECR authentication for image pull credentials.
-- [metalagman/home-ops](https://github.com/metalagman/home-ops): Kubernetes and Terraform/Terragrunt operations playground.
-- [metalagman/wsl-setup](https://github.com/metalagman/wsl-setup): reproducible WSL workstation setup and bootstrap automation.
-
-### Developer tooling and libraries
-
-- [metalagman/omnidist](https://github.com/metalagman/omnidist): tooling for shipping Go projects as cross-platform npm and uv packages with prebuilt binaries.
-- [metalagman/semverctl](https://github.com/metalagman/semverctl): CLI for setting and bumping SemVer values in JSON/YAML files and Git tags.
-- [metalagman/appkit](https://github.com/metalagman/appkit): opinionated Go packages for lifecycle, logging, versioning, and worker orchestration.
-- [metalagman/ddgo](https://github.com/metalagman/ddgo): Go port of Matomo Device Detector for user-agent and Client Hints parsing.
-- [metalagman/tgbotspec](https://github.com/metalagman/tgbotspec), [tgbotkit/client](https://github.com/tgbotkit/client), and [tgbotkit/runtime](https://github.com/tgbotkit/runtime): Telegram Bot API specification, client, and runtime tooling.
-
 ## Work Experience
 
 ### Fastronome — Tech Lead & Architect
@@ -90,6 +63,14 @@ Backend-focused tech lead with 16+ years in web development, including 7+ years 
 - **Leadership:** technical roadmaps, task decomposition, interviewing/hiring, 1:1s/PDPs, code reviews, mentoring, agile delivery.
 - **Stakeholder Management:** negotiating technical scope, managing expectations, and presenting complex solutions to technical and executive stakeholders.
 - **Frontend support:** React, Redux, Material UI, HTML5, CSS3, ES6.
+
+## Selected Public Work
+
+- Agent workflow and control-plane tools for long-running CLI agents, team intake, and reusable agent skills.
+- AI review and protocol tooling for pull request automation, MCP inspection, and ACP runtime exploration.
+- Go/devops libraries and automation for release distribution, semantic versioning, Kubernetes operations, and Telegram bot tooling.
+
+Full project list: [metalagman.github.io/#projects](/#projects)
 
 ## Education
 
