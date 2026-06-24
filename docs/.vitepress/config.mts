@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   cleanUrls: true,
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/avatar.png',
     nav: [
       { text: 'Projects', link: '/projects' },
       { text: 'GitHub', link: 'https://github.com/metalagman' },
