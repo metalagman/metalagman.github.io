@@ -70,7 +70,7 @@ Backend-focused tech lead with 16+ years in web development, including 7+ years 
 - AI review and protocol tooling for pull request automation, MCP inspection, and ACP runtime exploration.
 - Go/devops libraries and automation for release distribution, semantic versioning, Kubernetes operations, and Telegram bot tooling.
 
-Full project list: [metalagman.github.io/#projects](/#projects)
+Full project list: [metalagman.github.io/projects](/projects)
 
 ## Education
 

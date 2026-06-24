@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/avatar.png',
     nav: [
-      { text: 'Projects', link: '/#projects' },
+      { text: 'Projects', link: '/projects' },
       { text: 'CV', link: '/cv' },
       { text: 'GitHub', link: 'https://github.com/metalagman' },
       { text: 'Telegram', link: 'https://t.me/metalagman' },
