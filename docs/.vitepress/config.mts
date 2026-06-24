@@ -9,6 +9,7 @@ export default defineConfig({
     logo: '/avatar.png',
     nav: [
       { text: 'Projects', link: '/#projects' },
+      { text: 'CV', link: '/cv' },
       { text: 'GitHub', link: 'https://github.com/metalagman' },
       { text: 'Telegram', link: 'https://t.me/metalagman' },
       { text: 'LinkedIn', link: 'https://www.linkedin.com/in/alexey-samoylov-10469b39' }
