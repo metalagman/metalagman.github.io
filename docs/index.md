@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: View Projects
-      link: /projects
+      link: /#projects
     - theme: alt
       text: GitHub
       link: https://github.com/metalagman
