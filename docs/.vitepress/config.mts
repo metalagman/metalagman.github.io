@@ -5,6 +5,14 @@ export default defineConfig({
   description: 'Go tools, agent workflows, and infrastructure automation.',
   base: '/',
   cleanUrls: true,
+  head: [
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-NV2JVKRD5J' }],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-NV2JVKRD5J');"
+    ]
+  ],
   themeConfig: {
     logo: '/avatar.png',
     nav: [
