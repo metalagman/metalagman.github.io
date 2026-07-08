@@ -14,9 +14,9 @@
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
-| [mcp-dump](https://www.npmjs.com/package/@normahq/mcp-dump) | CLI inspector for stdio MCP servers |
-| [acp-dump](https://www.npmjs.com/package/@normahq/acp-dump) | CLI inspector for ACP-compatible agent runtimes and capability metadata |
-| [acp-repl](https://www.npmjs.com/package/@normahq/acp-repl) | Interactive ACP REPL for agent runtime exploration and testing |
+| [mcp-dump](https://www.npmjs.com/package/@normahq/mcp-dump) | Preflight inspector for stdio MCP servers: capabilities, tools, prompts, resources, templates, and JSON output |
+| [acp-dump](https://www.npmjs.com/package/@normahq/acp-dump) | Preflight inspector for stdio ACP agents: protocol/session data, auth, capabilities, models, modes, and JSON output |
+| [acp-repl](https://www.npmjs.com/package/@normahq/acp-repl) | Interactive terminal REPL for stdio ACP agents with session setup, model/mode selection, and permission handling |
 
 ## Infrastructure and operations
 
