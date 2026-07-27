@@ -6,7 +6,7 @@
 | --- | --- |
 | [normahq/norma](https://github.com/normahq/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
 | [normahq/relay](https://github.com/normahq/relay) | Telegram-first control plane for long-running CLI agents |
-| [normahq/balda](https://github.com/normahq/balda) | Persistent AI worker for teams, chat intake, and autonomous task execution |
+| [baldaworks/balda](https://github.com/baldaworks/balda) | Persistent AI worker for teams, chat intake, and autonomous task execution |
 | [normahq/codex-acp-bridge](https://github.com/normahq/codex-acp-bridge) | Exposes Codex App Server to ACP |
 | [diffpal/diffpal](https://github.com/diffpal/diffpal) | Open-source, provider-agnostic AI review for pull requests |
 | [fastronome/azure-devops-ai-code-review](https://github.com/fastronome/azure-devops-ai-code-review) | Azure OpenAI-powered pull request review extension for Azure DevOps |
@@ -14,6 +14,7 @@
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
+| [baldaworks/promptkitty](https://github.com/baldaworks/promptkitty) | PromptKit workflows for coding agents, the command line, and Go |
 | [normahq/mcp-dump](https://github.com/normahq/mcp-dump) | Preflight inspector for stdio MCP servers: capabilities, tools, prompts, resources, templates, and JSON output |
 | [normahq/acp-dump](https://github.com/normahq/acp-dump) | Preflight inspector for stdio ACP agents: protocol/session data, auth, capabilities, models, modes, and JSON output |
 | [normahq/acp-repl](https://github.com/normahq/acp-repl) | Interactive terminal REPL for stdio ACP agents with session setup, model/mode selection, and permission handling |
@@ -33,6 +34,7 @@
 | [metalagman/omnidist](https://github.com/metalagman/omnidist) | Turn one Go project into cross-platform npm + uv distributions with prebuilt binaries |
 | [metalagman/semverctl](https://github.com/metalagman/semverctl) | CLI for bumping and setting SemVer values in JSON/YAML files and Git tags |
 | [metalagman/appkit](https://github.com/metalagman/appkit) | Opinionated Go packages for lifecycle, logging, versioning, and worker orchestration |
+| [baldaworks/go-actorlayer](https://github.com/baldaworks/go-actorlayer) | Small Go library for message-driven application code |
 | [metalagman/ddgo](https://github.com/metalagman/ddgo) | Go port of Matomo Device Detector for parsing user-agent and Client Hints metadata |
 | [metalagman/tgbotspec](https://github.com/metalagman/tgbotspec) | Telegram Bot API to OpenAPI 3.0 spec |
 | [tgbotkit/client](https://github.com/tgbotkit/client) | Telegram Bot API client library |
