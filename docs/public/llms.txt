@@ -1,0 +1,9 @@
+# Alexey Samoylov
+
+> Personal site of Alexey Samoylov, a backend tech lead and architect focused on Go, distributed systems, agent workflows, and infrastructure automation.
+
+## Main pages
+
+- [Home](https://metalagman.github.io/): Overview of Alexey's engineering focus and professional links.
+- [Projects](https://metalagman.github.io/projects): Open-source projects spanning agent systems, infrastructure automation, and developer tooling.
+- [CV](https://metalagman.github.io/cv): Professional experience, technical skills, selected public work, education, and languages.

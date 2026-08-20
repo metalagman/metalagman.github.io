@@ -5,6 +5,9 @@ export default defineConfig({
   description: 'Go tools, agent workflows, and infrastructure automation.',
   base: '/',
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://metalagman.github.io'
+  },
   head: [
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-NV2JVKRD5J' }],
     [
