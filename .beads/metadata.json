@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "metalagman_github_io",
+  "project_id": "1bfb7f2d-a471-417c-95e6-eabd3b469dd9"
+}
