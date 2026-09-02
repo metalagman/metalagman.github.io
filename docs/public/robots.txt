@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metalagman.github.io/sitemap.xml
