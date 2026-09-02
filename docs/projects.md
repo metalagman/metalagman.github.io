@@ -4,20 +4,21 @@
 
 | Project | Description |
 | --- | --- |
-| [normahq/norma](https://github.com/normahq/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
 | [normahq/relay](https://github.com/normahq/relay) | Telegram-first control plane for long-running CLI agents |
 | [baldaworks/balda](https://github.com/baldaworks/balda) | Persistent AI worker for teams, chat intake, and autonomous task execution |
 | [normahq/codex-acp-bridge](https://github.com/normahq/codex-acp-bridge) | Exposes Codex App Server to ACP |
 | [diffpal/diffpal](https://github.com/diffpal/diffpal) | Open-source, provider-agnostic AI review for pull requests |
-| [fastronome/azure-devops-ai-code-review](https://github.com/fastronome/azure-devops-ai-code-review) | Azure OpenAI-powered pull request review extension for Azure DevOps |
-| [fastronome/azure-devops-copilot-code-review](https://github.com/fastronome/azure-devops-copilot-code-review) | GitHub Copilot-powered pull request reviews for Azure DevOps repos |
 | [metalagman/agent-skills](https://github.com/metalagman/agent-skills) | Reusable skills/workflows/resources for LLM agents |
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
 | [baldaworks/promptkitty](https://github.com/baldaworks/promptkitty) | PromptKit workflows for coding agents, the command line, and Go |
+| [baldaworks/acprun](https://github.com/baldaworks/acprun) | Discover, resolve, and run ACP (Agent Client Protocol) registry agents |
 | [baldaworks/mcpdump](https://github.com/baldaworks/mcpdump) | Preflight inspector for stdio MCP servers: capabilities, tools, prompts, resources, templates, and JSON output |
 | [baldaworks/acpdump](https://github.com/baldaworks/acpdump) | Preflight inspector for stdio ACP agents: protocol/session data, auth, capabilities, models, modes, and JSON output |
 | [baldaworks/acpchat](https://github.com/baldaworks/acpchat) | Interactive terminal REPL for stdio ACP agents with session setup, model/mode selection, and permission handling |
+| [normahq/norma](https://github.com/normahq/norma) | PDCA-inspired workflow orchestrator for agent-driven work |
+| [fastronome/azure-devops-ai-code-review](https://github.com/fastronome/azure-devops-ai-code-review) | Azure OpenAI-powered pull request review extension for Azure DevOps |
+| [fastronome/azure-devops-copilot-code-review](https://github.com/fastronome/azure-devops-copilot-code-review) | GitHub Copilot-powered pull request reviews for Azure DevOps repos |
 
 ## Infrastructure and operations
 
