@@ -15,9 +15,9 @@
 | [metalagman/aida](https://github.com/metalagman/aida) | One-shot runner for LLM-generated shell commands |
 | [metalagman/ainvoke](https://github.com/metalagman/ainvoke) | Schema-driven runner for agent/LLM CLIs |
 | [baldaworks/promptkitty](https://github.com/baldaworks/promptkitty) | PromptKit workflows for coding agents, the command line, and Go |
-| [normahq/mcp-dump](https://github.com/normahq/mcp-dump) | Preflight inspector for stdio MCP servers: capabilities, tools, prompts, resources, templates, and JSON output |
-| [normahq/acp-dump](https://github.com/normahq/acp-dump) | Preflight inspector for stdio ACP agents: protocol/session data, auth, capabilities, models, modes, and JSON output |
-| [normahq/acp-repl](https://github.com/normahq/acp-repl) | Interactive terminal REPL for stdio ACP agents with session setup, model/mode selection, and permission handling |
+| [baldaworks/mcpdump](https://github.com/baldaworks/mcpdump) | Preflight inspector for stdio MCP servers: capabilities, tools, prompts, resources, templates, and JSON output |
+| [baldaworks/acpdump](https://github.com/baldaworks/acpdump) | Preflight inspector for stdio ACP agents: protocol/session data, auth, capabilities, models, modes, and JSON output |
+| [baldaworks/acpchat](https://github.com/baldaworks/acpchat) | Interactive terminal REPL for stdio ACP agents with session setup, model/mode selection, and permission handling |
 
 ## Infrastructure and operations
 
