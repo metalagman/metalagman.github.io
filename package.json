@@ -1,25 +1,13 @@
 {
   "name": "metalagman.github.io",
   "version": "1.0.0",
-  "description": "Personal GitHub Pages site for Alexey Samoylov.",
-  "type": "module",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/metalagman/metalagman.github.io.git"
-  },
-  "keywords": [],
+  "private": true,
   "author": "Alexey Samoylov",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/metalagman/metalagman.github.io/issues"
-  },
-  "homepage": "https://metalagman.github.io",
-  "devDependencies": {
-    "vitepress": "^1.6.4"
+  "description": "Legacy redirects to https://metalagman.dev",
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/redirect.test.mjs",
+    "build": "node scripts/build-redirects.mjs"
   }
 }
