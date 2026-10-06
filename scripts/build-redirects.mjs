@@ -11,7 +11,7 @@ for (const [filename, path] of [['index.html', '/'], ['projects.html', '/project
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Site moved to metalagman.dev</title>
-  ${path === null ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${fallback}">`}
+  ${path === null ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${fallback}">\n  <meta http-equiv="refresh" content="0; url=${fallback}">`}
 </head>
 <body>
   <p>This site has moved. <a id="destination" href="${fallback}">Continue to metalagman.dev</a>.</p>
