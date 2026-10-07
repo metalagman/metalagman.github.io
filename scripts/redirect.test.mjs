@@ -25,22 +25,27 @@ test('publication contains only redirect pages, including usable fallback links'
     await mkdir(join(directory, 'redirects'));
     await writeFile(join(directory, 'redirects', 'old-site.js'), 'stale');
     execFileSync(process.execPath, [fileURLToPath(new URL('./build-redirects.mjs', import.meta.url))], { cwd: directory });
-    assert.deepEqual((await readdir(join(directory, 'redirects'))).sort(), ['404.html', 'cv.html', 'index.html', 'projects.html']);
+    assert.deepEqual((await readdir(join(directory, 'redirects'))).sort(), ['404.html', 'cv', 'cv.html', 'index.html', 'projects', 'projects.html']);
     const { destination } = await import('./redirect.mjs');
-    for (const filename of ['404.html', 'cv.html', 'index.html', 'projects.html']) {
+    for (const [filename, route] of [
+      ['404.html', null], ['index.html', '/'],
+      ['cv.html', '/cv'], ['cv/index.html', '/cv'],
+      ['projects.html', '/projects'], ['projects/index.html', '/projects'],
+    ]) {
       const html = await readFile(join(directory, 'redirects', filename), 'utf8');
       assert(html.includes(destination.toString()));
       assert(html.includes('window.location.replace(target.href)'));
       assert.match(html, /<a id="destination" href="https:\/\/metalagman\.dev\//);
       assert(html.includes('<noscript>'));
       if (filename !== '404.html') {
-        const route = filename === 'index.html' ? '/' : `/${filename.replace(/\.html$/, '')}`;
         const target = `https://metalagman.dev${route}`;
         assert(html.includes(`<link rel="canonical" href="${target}">`));
         assert(html.includes(`<meta http-equiv="refresh" content="0; url=${target}">`));
         assert(html.includes(`<a id="destination" href="${target}">`));
+        assert(!html.includes('noindex'));
       } else {
         assert(!html.includes('http-equiv="refresh"'));
+        assert(!html.includes('rel="canonical"'));
       }
       assert(!html.includes('<script src='));
     }

@@ -1,10 +1,17 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
+import { dirname } from 'node:path';
 import { destination } from './redirect.mjs';
 
 await rm('redirects', { recursive: true, force: true });
 await mkdir('redirects');
-for (const [filename, path] of [['index.html', '/'], ['projects.html', '/projects'], ['cv.html', '/cv'], ['404.html', null]]) {
+for (const [filename, path] of [
+  ['index.html', '/'],
+  ['projects.html', '/projects'], ['projects/index.html', '/projects'],
+  ['cv.html', '/cv'], ['cv/index.html', '/cv'],
+  ['404.html', null],
+]) {
   const fallback = `https://metalagman.dev${path ?? '/'}`;
+  await mkdir(dirname(`redirects/${filename}`), { recursive: true });
   await writeFile(`redirects/${filename}`, `<!doctype html>
 <html lang="en">
 <head>
